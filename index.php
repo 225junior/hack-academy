@@ -51,15 +51,15 @@ session_start();
 
 				<div class="login-wrap">
 
-					<input type="text" autocomplete="off" name="pseudo" class="form-control" placeholder="pseudo" autofocus>
+					<input type="text" autocomplete="off" required name="pseudo" class="form-control" placeholder="pseudo" autofocus>
 
-					<input type="password" name="password" class="mt form-control" placeholder="Mot de passe">
+					<input type="password" name="password" required class="mt form-control" placeholder="Mot de passe">
 
 					<input class="btn btn-theme mt btn-block" name="login" type="submit" value="Connexion">
 					<hr>
 
 					<div class="registration">Pas encore de compte?<br/>
-						<a href="register.php">Créer un compte</a>
+						<a href="views/register.php">Créer un compte</a>
 					</div>
 
 				</div>
